@@ -8,6 +8,7 @@ import Components from './views/Components.js';
 import Tricks from './views/Tricks';
 import styles from './App.module.scss';
 import Modal from './views/Modal';
+import Users from './views/Users';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path='/components' exact component={Components} />
         <Route path='/tricks' exact component={Tricks} />
         <Route path='/modal' exact component={Modal} />
+        <Route path='/users' exact component={Users} />
       </div>
     </Router>
   );

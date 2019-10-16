@@ -31,6 +31,9 @@ const Header = () => (
             <li>
               <NavLink to='/modal'>Modal</NavLink>
             </li>
+            <li>
+              <NavLink to='/users'>Users</NavLink>
+            </li>
           </ul>
         </div>
       </nav>
